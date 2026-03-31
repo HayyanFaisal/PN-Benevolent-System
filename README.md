@@ -21,7 +21,7 @@ App runs at http://localhost:5173
 
 
 # PN Benevolent Association - Developer Documentation
-🗂️ Complete File Structure
+## 🗂️ Complete File Structure
 ````bash
 pn-benevolent-system/
 ├── public/                          # Static assets
@@ -95,7 +95,7 @@ pn-benevolent-system/
 └── vite.config.js                   # Vite build configuration
 ````
 
-##🏗️ Architecture Overview
+## 🏗️ Architecture Overview
 1. Component Architecture
 We follow a feature-based folder structure where components are organized by user role:
 ````bash
@@ -131,7 +131,7 @@ Parent Registration          Medical Review
  view stats]    status update]   calculate grant]
 ````
 ## Module Documentation
-##🔐 Authentication System
+## 🔐 Authentication System
 Files: context/AuthContext.jsx, routes/ProtectedRoute.jsx, pages/Login.jsx
 How it works:
 - User selects role on login → stored in AuthContext
@@ -149,7 +149,7 @@ To add a new role:
 
 // 3. Add navigation items in Sidebar.jsx & MobileNav.jsx
 ````
-##👨‍👩‍👧 Parent Module
+## 👨‍👩‍👧 Parent Module
 Files: pages/Parent/ParentDashboard.jsx, pages/Parent/ChildRegistration.jsx
 Features:
 - View registered children with status badges
@@ -193,7 +193,7 @@ const GRANT_AMOUNTS = {
   'C': 20000
 };
 ````
-##🏛️ Authority Module (NH1[COMQAR]/NH2[COMPAK]/NH3)
+## 🏛️ Authority Module (NH1[COMQAR]/NH2[COMPAK]/NH3)
 Files: pages/Authority/AuthorityOverview.jsx
 Data Displayed:
 - Total children under jurisdiction
@@ -242,7 +242,7 @@ To add new gadget type:
   distributed: 15      // Units given out
 }
 ````
-##🎨 Styling System
+## 🎨 Styling System
 Color Palette 
 ````bash
 Primary (Navy):    #003358  /* Headers, primary buttons */
